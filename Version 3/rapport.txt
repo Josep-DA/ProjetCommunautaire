@@ -6,3 +6,5 @@
 - le lien «remonter en haut» n'a plus un carré entier et a maintenant une écriture spéciale.
 
 les modification apportées ont été faites selon les commentaires: https://docs.google.com/document/d/179Pl4urM-gJ3s49Jq9phCjTKNisZQzdGy87GzzmDPtg/edit
+
+Joseph Djima Ahouanto
