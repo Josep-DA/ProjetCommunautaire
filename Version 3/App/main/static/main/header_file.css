@@ -1,0 +1,103 @@
+/* Pour ajuster le cadrage du site */
+.container-fluid {
+  padding: 3% 5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fffffc;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin: 0 2em;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+.poly {
+  color: blue;
+}
+
+.verte {
+  color: green;
+}
+
+/* Espacement entre la barre de navigation et le slogan */
+nav {
+  margin-bottom: 2.5em;
+}
+
+.footer-section {
+  text-align: center;
+  margin-top: 2em;
+}
+
+.return-top {
+  background-color: #34475c;
+  padding: 1.5em 0 .75em 0;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.return-top > p > a {
+  text-decoration: none;
+  color: white;
+}
+
+.more-info {
+  background-color: #212f40;
+  padding: 2em 0;
+  color: white;
+  font-weight: bold;
+  font-size: 0.8em;
+}
+
+.more-info > hr {
+  margin: 2em 0;
+  color: lightblue;
+}
+
+.more-info > .navbar-brand {
+  font-size: 1.5em;
+  background-color: white;
+  border: 2px solid black;
+  box-shadow: 10px 10px 2px 1px black;
+}
+
+.more-info > .navbar-brand > span {
+  margin: 0 .3em;
+  color: black;
+}
+
+.advertising-conditions {
+  background-color: #121a23;
+  padding: 1em 0;
+  color: white;
+  font-weight: bold;
+}
+
+.advertising-conditions > p > span {
+  margin: 0 1.5em;
+  font-weight: 300;
+}
+
+.advertising-conditions > p {
+  font-size: .8em;
+}
