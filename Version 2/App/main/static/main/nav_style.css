@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  background-color: yellow;
+}
+
+
+.nav-container {
+  padding: 10px 0 10px 0;
+  border-bottom: 1em solid #66ffff;
+  background-color: #99ffcc;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar > .container-fluid {
+  background-color: #99ffcc;
+}
