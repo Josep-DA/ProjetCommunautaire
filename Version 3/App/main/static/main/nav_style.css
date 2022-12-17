@@ -1,19 +1,45 @@
+/* Pour ajuster le cadrage du site */
+.container-fluid {
+  padding: 3% 5%;
+}
+
 body {
   margin: 0;
-  background-color: yellow;
-}
-
-
-.nav-container {
-  padding: 10px 0 10px 0;
-  border-bottom: 1em solid #66ffff;
-  background-color: #99ffcc;
-}
-
-.navbar {
   padding: 0;
+  background-color: #fffffc;
+  font-family: 'Montserrat', sans-serif;
 }
 
-.navbar > .container-fluid {
-  background-color: #99ffcc;
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  margin: 0 2em;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Montserrat-Light', sans-serif;
+}
+
+.poly {
+  color: blue;
+}
+
+.verte {
+  color: green;
+}
+
+/* Espacement entre la barre de navigation et le slogan */
+nav {
+  margin-bottom: 2.5em;
 }
