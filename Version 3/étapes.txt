@@ -1,2 +1,17 @@
 ... 17 Décembre, 2022 ...
 
+1- Dessiner un croquis du site web pour la première page
+2- Restructurer le code html et css pour que le site ressemble au croquis
+3- À chaque changement majeur, enregistrer les modifications dans github
+
+Objectif prochaine fois:
+- Insérer le logo du site fait par mon coéquipier dans notre site et modifier le site selon ses commentaires.
+- Terminer le desing de la première page, même si l'information écrite n'est pas complètée.
+- Prendre des photos des toutes les choses que j'ai effectué.
+
+Fin du rapport:
+- Date: 17 décembre 2022.
+- Nom: Joseph Djima Ahouanto.
+- Temps de travail: environ 3h de temps.
+
+Les personnes concernées peuvent voir les changement sur replit.

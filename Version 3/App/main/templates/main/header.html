@@ -9,17 +9,13 @@
     	<link rel="icon" type="image/png" sizes="32x32" href="{{url_for('main.static', filename='favicon-32x32.png')}}">
 
       <!-- Bootstrap styling tools -->
-      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
 
       <!-- Font fontawesome tools -->
       <script src="https://kit.fontawesome.com/d1b22cfff1.js" crossorigin="anonymous"></script>
 
       <!-- Font fontawesome tools -->
       <script src="https://kit.fontawesome.com/d1b22cfff1.js" crossorigin="anonymous"></script>
-
-      <!-- Bootstrap javascript -->
-      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
 
       <!-- My stylesheet -->
       <link rel="stylesheet" href="{{url_for('main.static', filename='header_file.css')}}">
@@ -74,28 +70,32 @@
       <footer>
         <section class="footer-section">
 
-          <div class="return-top">
-            <p><a href="#header">Retour en haut</a></p>
-          </div>
+          <div class="container-fluid">
 
-          <div class="more-info">
-            <address class="">
-              Created by : <a href="ahouantojoseph@gmail.com">Joseph D. A.</a> & <a href="example@gmail.com">Philippe S.</a><br>
-              Contact us at : Example.com<br>
-              800 Rue de la Sorbonne, Québec<br>
-            </address>
+            <div class="return-top">
+              <p><a href="#header">Retour en haut</a></p>
+            </div>
 
-            <hr>
+            <div class="more-info">
+              <address class="">
+                Created by : <a href="ahouantojoseph@gmail.com">Joseph D. A.</a> & <a href="example@gmail.com">Philippe S.</a><br>
+                Contact us at : Example.com<br>
+                800 Rue de la Sorbonne, Québec<br>
+              </address>
 
-            <!-- Logo | Brand -->
-            <a class="navbar-brand" href="{{url_for('main.home')}}">
-              <span>La</span><span class="poly">Poly</span><span class="verte">Verte</span>
-            </a>
-          </div>
+              <hr>
 
-          <div class="advertising-conditions">
-            <p><span>Conditions d'utilisation</span><span>Droits d'auteurs</span></p>
-            <p>© 2022-2023, LaPolyVerte, Projet Communautaire PEI</p>
+              <!-- Logo | Brand -->
+              <a class="navbar-brand" href="{{url_for('main.home')}}">
+                <span>La</span><span class="poly">Poly</span><span class="verte">Verte</span>
+              </a>
+            </div>
+
+            <div class="advertising-conditions">
+              <p><span>Conditions d'utilisation</span><span>Droits d'auteurs</span></p>
+              <p>© 2022-2023, LaPolyVerte, Projet Communautaire PEI</p>
+            </div>
+
           </div>
 
         </section>

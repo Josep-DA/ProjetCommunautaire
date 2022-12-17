@@ -49,6 +49,11 @@ nav {
   margin-top: 2em;
 }
 
+.footer-section > .container-fluid {
+  padding: 0;
+  width: 100%;
+}
+
 .return-top {
   background-color: #34475c;
   padding: 1.5em 0 .75em 0;
