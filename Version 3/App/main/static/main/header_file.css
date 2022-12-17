@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital@1&display=swap');
+
 /* Pour ajuster le cadrage du site */
 .container-fluid {
   padding: 3% 5%;
@@ -69,14 +71,24 @@ nav {
 
 .return-top {
   background-color: #34475c;
-  padding: 1.5em 0 .75em 0;
-  font-weight: bold;
+  padding: 1em 1.5em;
+  border-radius: 10em;
   font-size: 1em;
+  font-family: 'Source Code Pro', monospace;
 }
 
-.return-top > p > a {
+.return-top > a {
   text-decoration: none;
   color: white;
+}
+
+.return-top:hover {
+  background-color: white;
+  color: black;
+}
+
+.return-top:hover > a {
+  color: black;
 }
 
 .more-info {
@@ -92,7 +104,7 @@ nav {
   color: lightblue;
 }
 
-.more-info > .navbar-brand {
+/* .more-info > .navbar-brand {
   font-size: 1.5em;
   background-color: white;
   border: 2px solid black;
@@ -102,7 +114,7 @@ nav {
 .more-info > .navbar-brand > span {
   margin: 0 .3em;
   color: black;
-}
+} */
 
 .advertising-conditions {
   background-color: #121a23;
