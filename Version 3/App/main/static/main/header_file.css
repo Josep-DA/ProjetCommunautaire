@@ -22,6 +22,10 @@ h1 {
   position: relative;
 }
 
+.logo-container > a {
+  text-decoration: none;
+}
+
 .logo4 {
   height: 100px;
 }
@@ -34,6 +38,7 @@ h1 {
 }
 */
 .navbar-brand {
+  display: inline;
   font-size: 1.2em;
   background-color: white;
   border: 2px solid black;
@@ -48,13 +53,13 @@ h1 {
   color: black;
 }
 
-.navbar-brand:hover {
+.logo-container:hover .navbar-brand {
   background-color: black;
   border: 2px solid white;
   box-shadow: 10px 10px 2px 1px #8cd98c;
 }
 
-.navbar-brand:hover > span {
+.logo-container:hover .navbar-brand > span {
   color:  #8cd98c;
 }
 
