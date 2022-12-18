@@ -37,6 +37,16 @@ h1 {
   color: black;
 }
 
+.navbar-brand:hover {
+  background-color: black;
+  border: 2px solid white;
+  box-shadow: 10px 10px 2px 1px #8cd98c;
+}
+
+.navbar-brand:hover > span {
+  color:  #8cd98c;
+}
+
 .nav-item {
   margin: 0 2em;
 }
