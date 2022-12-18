@@ -5,6 +5,12 @@
 - le logo du bas à été retiré.
 - le lien «remonter en haut» n'a plus un carré entier et a maintenant une écriture spéciale.
 
+# ------------------------------------------------------------------------------- #
+18 décembre 2022 - 01h 26
+- Le lien pour remonter à été remplacer par une flèche en bas à droite pouvant disparaître et apparaître.
+
+Ceci est inspiré du site google fonts - https://fonts.google.com/ - et de leur flèche
+
 les modification apportées ont été faites selon les commentaires: https://docs.google.com/document/d/179Pl4urM-gJ3s49Jq9phCjTKNisZQzdGy87GzzmDPtg/edit
 
 Joseph Djima Ahouanto
