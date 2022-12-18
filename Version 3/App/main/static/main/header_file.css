@@ -18,6 +18,14 @@ h1 {
   font-weight: 700;
 }
 
+.logo-container {
+  position: absolute;
+}
+
+.logo4 {
+  height: 100px;
+}
+
 /*
 .navbar-brand {
   font-family: 'Ubuntu', sans-serif;
@@ -26,10 +34,13 @@ h1 {
 }
 */
 .navbar-brand {
-  font-size: 1.5em;
+  font-size: 1.2em;
   background-color: white;
   border: 2px solid black;
   box-shadow: 10px 10px 2px 1px black;
+  position: relative;
+  top: 1.5em;
+  right: 1.5em;
 }
 
 .navbar-brand > span {
@@ -66,7 +77,7 @@ h1 {
 
 /* Espacement entre la barre de navigation et le slogan */
 nav {
-  margin-bottom: 2.5em;
+  margin-bottom: 5em;
 }
 
 .footer-section {
